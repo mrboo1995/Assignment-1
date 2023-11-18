@@ -1,0 +1,134 @@
+body {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 10pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+
+  padding: 40px;
+}
+/* thông tin cá nhân */
+.section {
+  display: block;
+  margin: 40px 40px 40px 40px;
+}
+.section-title {
+  border-bottom: 32px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-bottom: 2px solid black;
+}
+.h1-name {
+  font-size: 40px;
+  color: #0e2452;
+  margin: 0;
+}
+
+#info {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  display: inline-block;
+  margin: 40px;
+}
+.information section-content {
+  background-color: #fff;
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  left: -40%;
+}
+
+.image {
+  position: absolute;
+  background-color: #fff;
+  height: 99%;
+  top: 0;
+  right: 50px;
+  margin: 4px;
+  margin-right: 40px;
+}
+.infor1 {
+  width: 80px;
+  display: inline-block;
+}
+.infor2 {
+  display: inline-block;
+}
+/* lý lịch */
+.row {
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+}
+.left {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  height: 70px;
+}
+.right {
+  display: inline-block;
+  width: 30%;
+  height: 70px;
+}
+
+/* Footer */
+a {
+  text-decoration: none;
+}
+/* tạo timeline */
+.timeline {
+  content: "";
+  position: relative;
+  margin: 0;
+  padding-bottom: 1em;
+  padding-left: 20px;
+}
+.timeline::before {
+  content: "";
+  background-color: rgb(10, 10, 10);
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  left: 1px;
+  width: 1px;
+}
+.timeline::after {
+  content: "";
+  background-color: black;
+  border: 0, 2em solid black;
+  border-radius: 50%;
+  position: absolute;
+  left: -4px;
+  top: 2px;
+  height: 12px;
+  width: 12px;
+}
